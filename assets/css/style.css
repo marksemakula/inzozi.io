@@ -575,9 +575,11 @@ input:-ms-input-placeholder {
 	font-size:15px;
 }
 
-.team  img{
-	float:left;
-	margin-right: 20px;
+.team  img {
+        float:left;
+        margin-right: 20px;
+        max-width:40%;
+        height: auto;
 }
 
 .team .team-info h2{
