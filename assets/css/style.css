@@ -130,7 +130,7 @@ input[type="color"],
     height: 45px;
 }
 .form-control:focus {
-    border-color: #AF2020;
+    border-color: #990000;
 }
 h1,
 h2,
@@ -196,13 +196,13 @@ p:last-child {
     color: #333333;
 }
 .colorstext {
-    color: #AF2020;
+    color: #990000;
 }
 .coloricon i {
-    color: #AF2020;
+    color: #990000;
 }
 .colorsbg {
-    background: #AF2020;
+    background: #990000;
     color: #ffffff;
 }
 .colorsbg .separator2 {
@@ -459,7 +459,7 @@ input:-ms-input-placeholder {
 }
 .home-bg .header-details h1 i{
 	font-size:7px;
-	color:#AF2020;
+	color:#990000;
 }
 .home-bg .header-details p{
 	font-size:20px;
@@ -470,13 +470,13 @@ input:-ms-input-placeholder {
 	padding:10px;
 	width: 150px;
     height: 40px;
-	background: #C02626;
+	background: #990000;
 	color:white;
 	font-size:15px;
 	margin-top:30px;
 }
 .home-bg .header-details button:hover{
-	background:#AF2020;
+	background:#990000;
 	color:white;
 }
 .btn-default{
@@ -498,13 +498,13 @@ input:-ms-input-placeholder {
 }
 .promotion h1 i{
 	font-size:5px;
-	color:#fa5c65;
+	color:#990000;
 }
 
 .promotion a h4{
 	text-transform:uppercase;
 	font-size:15px;
-	color:#AF2020;
+	color:#990000;
 }
 .promotion a h4:hover{
 	color:pink;
@@ -537,7 +537,7 @@ input:-ms-input-placeholder {
 .portfolio a h4{
 	text-transform:uppercase;
 	font-size:14px;
-	color:#fa5c65#AF2020;
+	color:#fa5c65#990000;
 	font-family: 'montserratregular';
 }
 .portfolio a h4:hover{
