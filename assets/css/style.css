@@ -36,6 +36,12 @@ PRE LOADER
     overflow: hidden !important;
 }
 
+.navbar-brand img {
+  height: 176px; /* set the height of the logo */
+  margin-top: -10px; /* adjust the vertical position of the logo */
+  margin-bottom: 0;
+}
+
 .loaded {
     width: 60px;
     height: 60px;
