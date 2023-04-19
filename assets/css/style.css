@@ -522,6 +522,7 @@ input:-ms-input-placeholder {
 
 .portfolio img{
 	margin-left: -79px;
+    max-width: 120px;
 }
 
 .portfolio h1{
