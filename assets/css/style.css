@@ -456,7 +456,7 @@ input:-ms-input-placeholder {
 	font-size:48px;
 	margin-bottom:20px;
 	line-height: 45px;
-    color:#990000
+    color:#314a5b
 }
 .home-bg .header-details h1 i{
 	font-size:7px;
@@ -464,7 +464,7 @@ input:-ms-input-placeholder {
 }
 .home-bg .header-details p{
 	font-size:20px;
-	color:#314a5b;
+	color:#990000;
 }
 
 .home-bg .header-details button{
