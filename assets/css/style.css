@@ -600,6 +600,24 @@ input:-ms-input-placeholder {
 	font-size:14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.team .team-info1 h2{
+	text-transform:uppercase;
+	font-size:18px;
+	font-family:"montserratbold";
+	margin-bottom:0;
+}
+.team .team-info1 h5{
+	font-size:12px;
+	color:#AF2020;
+	margin-bottom:0;
+	font-weight:bold;
+}
+.team .team-info1 p{
+	font-size:14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .team-more{
 	padding-top:72px;
 	float:right;
