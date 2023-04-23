@@ -392,6 +392,17 @@ input:-ms-input-placeholder {
     overflow: hidden;
 }
 
+.home-bg1{
+    background: url(../images/header-bg2.png) no-repeat center top fixed;
+	max-height:650px;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
 .mainmenu.navbar-default {
 	background-color:transparent;
 	border-color:transparent;
