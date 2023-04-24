@@ -403,6 +403,14 @@ input:-ms-input-placeholder {
     overflow: hidden;
 }
 
+$(document).on('scroll', function() {
+    if ($(window).scrollTop() > 100) {
+      $('.home-bg1').hide();
+    } else {
+      $('.home-bg1').show();
+    }
+  });
+
 .mainmenu.navbar-default {
 	background-color:transparent;
 	border-color:transparent;
