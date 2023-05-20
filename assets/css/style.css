@@ -474,7 +474,7 @@ input:-ms-input-placeholder {
 	color:#990000;
 }
 .home-bg .header-details p{
-	font-size:20px;
+	/* font-size:20px; */
 	color:#990000;
 }
 
@@ -675,6 +675,10 @@ input:-ms-input-placeholder {
 		right:50px;
 		font-weight:bold;
 	}
+
+    .comments p{
+        margin: 20px;
+    }
 
 
 
