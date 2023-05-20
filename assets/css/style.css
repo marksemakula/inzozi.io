@@ -680,13 +680,35 @@ input:-ms-input-placeholder {
         margin: 20px;
     }
 
+    .pagination_bdy{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pagination_bdy .pagination{
+        display: flex;
+        flex-direction: row;
+    }
+    .pagination_bdy .pagination .border{
+        border: 1px solid lightgray;
+        padding: 15%;
+        width: 80%;
+        height: 90%;
+        border-radius: 70%;
+        margin-right: 10px;
+    }
 
+    .pagination_bdy .pagination .border:hover{
+        background-color: gray;
+        color: #fff;
+    }
 
-
-
-
-
-
-
-
-
+    .pagination_bdy .pagination .active{
+        border: 1px solid lightgray;
+        padding: 15%;
+        width: 80%;
+        height: 90%;
+        border-radius: 70%;
+        margin-right: 10px;
+        color: black;
+    }
