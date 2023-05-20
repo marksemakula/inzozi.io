@@ -528,7 +528,9 @@ input:-ms-input-placeholder {
 
 .portfolio{
 	color:#465065;
-	overflow:hidden;
+	/* overflow:hidden;
+    display: flex;
+    flex-direction: row; */
 }
 
 .portfolio img{
