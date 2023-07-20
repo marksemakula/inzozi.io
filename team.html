@@ -15,7 +15,15 @@
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
-
+	<script>
+        window.onload = function() {
+          var currentUrl = window.location.href;
+          if (currentUrl.endsWith(".html")) {
+            var newUrl = currentUrl.substring(0, currentUrl.lastIndexOf(".html"));
+            window.history.replaceState({}, document.title, newUrl);
+          }
+        };
+        </script>
 
 	<!--For Plugins external css-->
 	<link rel="stylesheet" href="assets/css/plugins.css" />
