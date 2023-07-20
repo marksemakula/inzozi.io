@@ -382,7 +382,7 @@ input:-ms-input-placeholder {
 
 
 .home-bg{
-    background: url(../images/pattern.png) no-repeat center top fixed;
+    background: url(../images/header-bg.png) no-repeat center top fixed;
 	max-height:650px;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -393,7 +393,7 @@ input:-ms-input-placeholder {
 }
 
 .home-bg1{
-    background: url(../images/header-bg7.jpg) no-repeat center top fixed;
+    background: url(../images/pattern.png) no-repeat center top fixed;
 	max-height:650px;
     -moz-background-size: cover;
     -webkit-background-size: cover;
