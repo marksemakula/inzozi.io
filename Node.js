@@ -5,8 +5,8 @@ const app = express();
 const port = 3000; // Change this to your desired port number
 
 // Set your PayPal credentials as environment variables
-process.env.CLIENT_ID = "AbYWLpXNL4dQrsn8xRGgjDZ2a8CC2O6dSiuRXwFOuNIa5I3Taue9TAVoA6JI4OnJs0lCC9F9sZm64Yh5";
-process.env.APP_SECRET = "EEhGuUqV94P725ejn94FEzlKJGmJHX9RTiNPqi9EDckRenB8pXah18X6gh276AbZGmKVsDYFZARdNPcF";
+process.env.CLIENT_ID = "AftrIaLTH4qD92wDVjG2dr4vBisK7yF5pkQucEoyKMDV-Pf2ajtITChp0zXVYQJIEWKy4QVV9FGD2Nev";
+process.env.APP_SECRET = "EHncHx15yVXp0MYALTcCbJJKoi8ouiXsWgkA0wTOhqBpbgnWn9_Z1wrpb3FNYWTca7efVoTNWLsQs8oP";
 
 const { CLIENT_ID, APP_SECRET } = process.env;
 const baseURL = {
