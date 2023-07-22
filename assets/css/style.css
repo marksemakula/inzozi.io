@@ -682,35 +682,22 @@ input:-ms-input-placeholder {
         margin: 20px;
     }
 
-    .pagination_bdy{
+    .pagination {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
     }
-    .pagination_bdy .pagination{
-        display: flex;
-        flex-direction: row;
+    
+    .page {
+        padding: 5px 10px;
+        margin: 0 5px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        cursor: pointer;
     }
-    .pagination_bdy .pagination .border{
-        border: 1px solid lightgray;
-        padding: 15%;
-        width: 80%;
-        height: 90%;
-        border-radius: 70%;
-        margin-right: 10px;
-    }
-
-    .pagination_bdy .pagination .border:hover{
-        background-color: gray;
+    
+    .page.active {
+        background-color: #333;
         color: #fff;
-    }
-
-    .pagination_bdy .pagination .active{
-        border: 1px solid lightgray;
-        padding: 15%;
-        width: 80%;
-        height: 90%;
-        border-radius: 70%;
-        margin-right: 10px;
-        color: black;
     }
