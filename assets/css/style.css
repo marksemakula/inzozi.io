@@ -2,8 +2,7 @@
 
 /*
 Author: 1705
-Author URI: http://themeforest.net/user/1705/portfolio
-*/
+Author URI: http://inzozi.co
 /* ==========================================================================
    1705's custom styles
    ========================================================================== */
@@ -534,6 +533,7 @@ input:-ms-input-placeholder {
 }
 
 .portfolio img{
+    margin-bottom: 15px;
 	margin-left: -79px;
     max-width: 120px;
 }
