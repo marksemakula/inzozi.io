@@ -32,7 +32,7 @@
 	<!--Theme custom css -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
-	<link rel="shortcut icon" href="inzozi.ico" />
+	<link rel="icon" href="inzozi.ico" type="image/x-icon">
 	
 	<!--Theme Responsive css-->
 	<link rel="stylesheet" href="assets/css/responsive.css" />
@@ -40,6 +40,12 @@
 	<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
+<style>.custom-btn {
+    background-color: #990000;
+    color: white; /* Optional: Change text color for better contrast */
+    border: none; /* Optional: Remove default border */
+}
+</style>
 
 
 <body>
@@ -111,6 +117,13 @@
   }
 </script>
 
+<script>
+	function navigateToSPECIALISTS() {
+	  // Replace "path/to/your-html-file.html" with the actual relative or absolute path to the HTML file you want to navigate to
+	  window.location.href = "Team.html";
+	}
+  </script>
+
 						</div>
 					</div>
 
@@ -174,34 +187,42 @@
 			<!-- Example row of columns -->
 			<div class="row">
 				<div class="col-sm-6 col-sm-12 col-xs-12">
-					<div class="portfolio row">
-						<p style="font-family: 'Gill Sans MT', sans-serif;">
-							Proudly associated with:
-							</p>
-						<div class="col-sm-6 col-xs-12 mb-3">
-						  <img src="assets/images/aia.png" alt="" width="110" height="45" />
+					<div class="portfolio">
+						<p style="font-family: 'Gill Sans MT', sans-serif;"> Proudly associated with: </p>
+						
+						<div class="row mb-3">
+							<div class="col-sm-4 col-xs-12">
+								<img src="assets/images/aia.png" alt="" width="110" height="45" />
+							</div>
+							<div class="col-sm-4 col-xs-12">
+								<img src="assets/images/who.svg" alt="" width="100" height="100" />
+							</div>
+							<div class="col-sm-4 col-xs-12">
+								<img src="assets/images/violetta.png" alt="" width="78" height="70" />
+							</div>
 						</div>
-						<div class="col-sm-6 col-xs-12 mb-3">
-						  <img src="assets/images/who.svg" alt="" width="100" height="100" />
+				
+						<div class="row mb-3">
+							<div class="col-sm-4 col-xs-12">
+								<img src="assets/images/usaid.png" alt="" width="70" height="70" />
+							</div>
+							<div class="col-sm-4 col-xs-12">
+								<img src="assets/images/all in one trade.png" alt="" width="120" height="70" />
+							</div>
+							<div class="col-sm-4 col-xs-12">
+								<img src="assets/images/wwf.jpg" alt="" width="70" height="70" />
+							</div>
 						</div>
-						<div class="col-sm-6 col-xs-12 mb-3">
-						  <img src="assets/images/violetta.png" alt="" width="78" height="70" />
+				
+						<div class="row">
+							<div class="col-sm-4 col-xs-12">
+								<img src="assets/images/ksLogo.webp" alt="" width="70" height="70" />
+							</div>
+							<!-- Add any additional divs if needed -->
 						</div>
-						<div class="col-sm-6 col-xs-12 mb-3">
-						  <img src="assets/images/usaid.png" alt="" width="70" height="70" />
-						</div>
-						<div class="col-sm-6 col-xs-12 mb-3">
-							<img src="assets/images/all in one trade.png" alt="" width="120" height="70" />
-						  </div>
-						<div class="col-sm-6 col-xs-12 mb-3">
-						  <img src="assets/images/wwf.jpg" alt="" width="70" height="70" />
-						</div>
-						<div class="col-sm-6 col-xs-12 mb-3">
-							<img src="assets/images/ksLogo.webp" alt="" width="70" height="70" />
-						  <!-- Add any additional divs if needed -->
-						</div>
-					  </div>					  
+					</div>					  
 				</div>
+				
 				<div class="col-sm-5 col-sm-12 col-xs-12">
 					<div class="portfolio">
 						<div class="item">
@@ -214,6 +235,7 @@
 							</a>
 						</div>
 					</div>
+					<button class="btn custom-btn" onclick="navigateToSPECIALISTS()">SPECIALISTS</button>
 				</div>
 			</div>
 		</div> <!-- /container -->
