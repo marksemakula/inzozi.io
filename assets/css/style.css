@@ -16,7 +16,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     font-family: 'open_sansregular';
-    font-weight: 300;
+    font-weight: Bold;
 }
 /*==========================================
 PRE LOADER 
@@ -134,8 +134,8 @@ input[type="color"],
 h1,
 h2,
 h3 {
-    font-family: 'Lane', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-weight: Bold;
     margin: 0;
 }
 h4,
@@ -156,7 +156,7 @@ h2 {
 	line-height:inherit;
 }
 h3 {
-    font-weight: 300;
+    font-weight: Bold;
     margin-bottom: .9rem;
     font-size: 2.1rem;
     line-height: 2.5rem;
@@ -189,7 +189,7 @@ p:last-child {
 .home-wrap h5,
 .home-wrap p {
     color: #ffffff;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Cinzel';
 }
 .text {
     color: #333333;
@@ -236,7 +236,7 @@ footer {
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 .parallax-section {
     max-width: 100%;
@@ -245,12 +245,12 @@ section .subtitle h5 {
 section .title-half h2 {
     font-size: 3rem;
     line-height: 4rem;
-    font-weight: 300;
+    font-weight: Bold;
     margin-bottom: 1.4rem;
 }
 section .subtitle-half h5 {
-    font-weight: 100;
-    font-size: 17px;
+    font-weight: Bold;
+    font-size: 15px;
 }
 section:nth-of-type(odd) {
     background-color: #F9F9F9;
@@ -258,7 +258,7 @@ section:nth-of-type(odd) {
 .fw-special-title-half {
     font-size: 2rem;
     line-height: 3rem;
-    font-weight: 100;
+    font-weight: Bold;
     /*    margin-bottom: 10px;*/
 }
 .heading {
@@ -462,7 +462,7 @@ input:-ms-input-placeholder {
 }
 .home-bg .header-details h1{
 	text-transform:uppercase;
-	font-family: 'montserratbold';
+	font-family: 'Cinzel';
 	font-size:48px;
 	margin-bottom:20px;
 	line-height: 45px;
@@ -601,7 +601,7 @@ input:-ms-input-placeholder {
     -webkit-transform: none;
             transform: none;
     top: 7px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -612,17 +612,20 @@ input:-ms-input-placeholder {
 }
   
 .promotion {
-	color:#465065;
+	color:#000000;
 }
 .promotion h1{
 	text-transform:uppercase;
-	font-size:20px;
+	font-size:18px;
 	margin-bottom:15px;
 	font-family: 'Cinzel';
 	line-height:35px;
 }
 .promotion p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lane', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 14px;
+    color: #928e85;
+    text-align: justify;
 }
 .promotion h1 i{
 	font-size:5px;
@@ -631,7 +634,7 @@ input:-ms-input-placeholder {
 
 .promotion a h4{
 	text-transform:uppercase;
-	font-size:15px;
+	font-size:11px;
 	color:#990000;
 }
 .promotion a h4:hover{
@@ -657,7 +660,7 @@ input:-ms-input-placeholder {
 
 .portfolio h1{
 	text-transform:uppercase;
-	font-size:26px;
+	font-size:20px;
 	margin-bottom:15px;
 	font-family: 'Gill Sans MT';
 }
@@ -676,7 +679,7 @@ input:-ms-input-placeholder {
 	color:pink;
 }
 .portfolio h5{
-	font-size:16px;
+	font-size:14px;
 }
 .portfolio h4 span i{
 	padding-left:5px;
@@ -686,7 +689,8 @@ input:-ms-input-placeholder {
 	padding-top:10px;
 }
 .portfolio .item p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lane', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    text-align: justify;
 }
 .team-heading {
     margin-bottom: 40px;
