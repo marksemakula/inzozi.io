@@ -181,6 +181,88 @@
 		</div> <!-- /container -->
 	</section>
 
+	<section class="book_section layout_padding">
+		<div class="container">
+		  <div class="row">
+			<div class="col">
+			  <form>
+				<h4>
+				  GET <span>A QUOTE / AN APPOINTMENT</span>
+				</h4>
+				<div class="form-row ">
+				  <div class="form-group col-lg-4">
+					<label for="inputPatientName">Name </label>
+					<input type="text" class="form-control" id="inputPatientName" placeholder="">
+				  </div>
+				  <div class="form-group col-lg-4">
+					<label for="inputDoctorName">Referred by? Name / Contact</label>
+					<input type="text" class="form-control" id="inputName" placeholder="">
+				  </div>
+				  <div class="form-group col-lg-4">
+					<label for="inputDepartmentName">Service Needed</label>
+					<select name="" class="form-control wide" id="inputDepartmentName">
+					  <option value="Normal distribution ">Human Capital</option>
+					  <option value="Normal distribution ">Business Advisory</option>
+					  <option value="Normal distribution ">Media, Brand & Comms Consult</option>
+					  <option value="Normal distribution ">Technology Consult</option>
+					  <option value="Normal distribution ">Grants, Audit & Finance Consult</option>
+					  <option value="Normal distribution ">General Business Appointment</option>
+					  <option value="Normal distribution ">Research / Analyst Consult</option>
+					  <option value="Normal distribution ">Survey</option>
+					  <option value="Normal distribution ">Education Consult</option>
+					</select>
+				  </div>
+				</div>
+				<div class="form-row ">
+				  <div class="form-group col-lg-4">
+					<label for="inputPhone">Phone Number</label>
+					<input type="number" class="form-control" id="inputPhone" placeholder="+256774486393">
+				  </div>
+				  <div class="form-group col-lg-4">
+					<label for="inputSymptoms">Symptoms</label>
+					<input type="text" class="form-control" id="inputSymptoms" placeholder="">
+				  </div>
+				  <div class="form-group col-lg-4">
+					<label for="inputDate">Choose Date </label>
+					<div class="input-group date" id="inputDate" data-date-format="mm-dd-yyyy">
+					  <input type="text" class="form-control" readonly>
+					  <span class="input-group-addon date_icon">
+						<i class="fa fa-calendar" aria-hidden="true"></i>
+					  </span>
+					</div>
+				  </div>
+				</div>
+				<div class="btn-box">
+				  <button type="submit" class="btn" onclick="sendWhatsAppMessage()">Submit Now</button>
+				</div>
+				
+				<script>
+				  function sendWhatsAppMessage() {
+					var phoneNumber = "+256789893903";
+					var patientName = document.getElementById("inputPatientName").value;
+					var referredBy = document.getElementById("inputName").value;
+					var serviceNeeded = document.getElementById("inputDepartmentName").value;
+					var phoneNumberInput = document.getElementById("inputPhone").value;
+					var symptoms = document.getElementById("inputSymptoms").value;
+					var chosenDate = document.getElementById("inputDate").value;
+					var message = "Patient Name: " + patientName + "%0A" +
+								  "Referred by: " + referredBy + "%0A" +
+								  "Service Needed: " + serviceNeeded + "%0A" +
+								  "Phone Number: " + phoneNumberInput + "%0A" +
+								  "Symptoms: " + symptoms + "%0A" +
+								  "Chosen Date: " + chosenDate;
+				
+					var encodedMessage = encodeURIComponent(message);
+					var whatsappUrl = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodedMessage;
+					window.open(whatsappUrl, "_blank");
+				  }
+				</script>
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	
 
 	<section id="portfolio-area" class="sections">
 		<div class="container">
