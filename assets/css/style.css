@@ -494,37 +494,54 @@ input:-ms-input-placeholder {
 	border-color:transparent;
 }
 
+.book_section {
+    position: relative;
+    overflow: visible; /* Ensures the form is not clipped */
+    min-height: 600px; /* Adjust height to create space for floating effect */
+    padding: 50px 0; /* Adds vertical spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff; /* White background behind the form */
+}
+
 .book_section h4 {
     position: relative;
     padding-bottom: 5px;
     margin-bottom: 35px;
-  }
-  
-  .book_section h4 span {
+    text-align: center;
+}
+
+.book_section h4 span {
     color: #990000;
-  }
-  
-  .book_section h4::before {
+}
+
+.book_section h4::before {
     content: "";
     position: absolute;
-    left: 0;
+    left: 50%;
     bottom: 0;
     width: 75px;
     height: 2px;
     background-color: #990000;
-  }
-  
-  .book_section form {
+    transform: translateX(-50%);
+}
+
+.book_section form {
+    position: relative;
     padding: 35px 45px;
+    background: #fff; /* Ensures form has a proper background */
+    border-radius: 10px; /* Optional: Adds rounded corners */
     -webkit-box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
             box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
-  }
-  
-  .book_section form label {
+}
+
+.book_section form label {
     color: #000000;
-  }
-  
-  .book_section form .form-control {
+}
+
+.book_section form .form-control {
     width: 100%;
     background-color: transparent;
     border: 1px solid #990000;
@@ -534,42 +551,30 @@ input:-ms-input-placeholder {
             box-shadow: none;
     border-radius: 5px;
     padding: 0 15px;
-  }
-  
-  .book_section form .form-control::-webkit-input-placeholder {
+}
+
+.book_section form .form-control::placeholder {
     color: #990000;
-  }
-  
-  .book_section form .form-control:-ms-input-placeholder {
+}
+
+.book_section form #inputDate {
     color: #990000;
-  }
-  
-  .book_section form .form-control::-ms-input-placeholder {
+}
+
+.book_section form #inputDate input {
     color: #990000;
-  }
-  
-  .book_section form .form-control::placeholder {
-    color: #990000;
-  }
-  
-  .book_section form #inputDate {
-    color: #990000;
-  }
-  
-  .book_section form #inputDate input {
-    color: #990000;
-  }
-  
-  .book_section form button.btn {
+}
+
+.book_section form button.btn {
     background-color: #252525;
     color: #ffffff;
     padding: 10px 45px;
     border-radius: 5px;
     margin-top: 10px;
     text-transform: uppercase;
-  }
-  
-  .book_section .date_icon {
+}
+
+.book_section .date_icon {
     right: 10px;
     height: 100%;
     position: absolute;
@@ -585,9 +590,9 @@ input:-ms-input-placeholder {
         -ms-flex-align: center;
             align-items: center;
     color: #990000;
-  }
-  
-  .book_section .nice-select:after {
+}
+
+.book_section .nice-select:after {
     content: "\f107";
     font-family: FontAwesome;
     border: none;
@@ -600,11 +605,11 @@ input:-ms-input-placeholder {
     font-weight: bold;
     -webkit-transition: all .3s;
     transition: all .3s;
-  }
-  
-  .book_section .nice-select.open:after {
+}
+
+.book_section .nice-select.open:after {
     content: "\f106";
-  }
+}
   
 .promotion {
 	color:#465065;
