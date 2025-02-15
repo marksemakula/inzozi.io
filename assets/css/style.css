@@ -594,7 +594,7 @@ Author URI: http://inzozi.co
    
    .book_section .nice-select:after {
        content: "\f107";
-       font-family: FontAwesome;
+       font-family: 'Gill Sans', 'Gill Sans MT';
        border: none;
        width: auto;
        height: auto;
@@ -660,7 +660,7 @@ Author URI: http://inzozi.co
    
    .portfolio h1{
        text-transform:uppercase;
-       font-size:15px;
+       font-size:20px;
        margin-bottom:15px;
        font-family: 'Gill Sans MT';
    }
@@ -679,7 +679,7 @@ Author URI: http://inzozi.co
        color:pink;
    }
    .portfolio h5{
-       font-size:14px;
+       font-size:18px;
    }
    .portfolio h4 span i{
        padding-left:5px;
@@ -690,6 +690,7 @@ Author URI: http://inzozi.co
    }
    .portfolio .item p{
        font-family: 'Lane', 'Gill Sans', 'Gill Sans MT', sans-serif;
+       font-size:14px;
        text-align: justify;
    }
    .team-heading {
