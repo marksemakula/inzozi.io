@@ -220,9 +220,9 @@
 					<input type="number" class="form-control" id="inputPhone" placeholder="+256774486393">
 				  </div>
 				  <div class="form-group col-lg-4">
-					<label for="inputSymptoms">Symptoms</label>
-					<input type="text" class="form-control" id="inputSymptoms" placeholder="">
-				  </div>
+					<label for="inputMessage">Message</label>
+					<input type="text" class="form-control" id="inputMessage" placeholder="">
+				</div>				
 				  <div class="form-group col-lg-4">
 					<label for="inputDate">Choose Date </label>
 					<div class="input-group date" id="inputDate" data-date-format="mm-dd-yyyy">
@@ -244,13 +244,13 @@
 					var referredBy = document.getElementById("inputName").value;
 					var serviceNeeded = document.getElementById("inputDepartmentName").value;
 					var phoneNumberInput = document.getElementById("inputPhone").value;
-					var symptoms = document.getElementById("inputSymptoms").value;
+					var message = document.getElementById("inputMessage").value;
 					var chosenDate = document.getElementById("inputDate").value;
 					var message = "Patient Name: " + patientName + "%0A" +
 								  "Referred by: " + referredBy + "%0A" +
 								  "Service Needed: " + serviceNeeded + "%0A" +
 								  "Phone Number: " + phoneNumberInput + "%0A" +
-								  "Symptoms: " + Message + "%0A" +
+								  "Message: " + message + "%0A" + +
 								  "Chosen Date: " + chosenDate;
 				
 					var encodedMessage = encodeURIComponent(message);
